@@ -1,8 +1,25 @@
 aid: kaiber
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kaiber.png
 name: Kaiber
-description: 'Kaiber is a company surfaced as a portfolio company of eqt-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: artificial-intelligence. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Kaiber (Kyber Corp., dba Kaiber) is an AI creative studio for generative
+  video and audio. Its web and mobile apps let creators turn text prompts, images,
+  and music into stylized videos through features such as Canvas, Beat Sync, Auto-Clip,
+  and an Editor timeline, sold via credit-based monthly subscription plans (Starter,
+  Creator, Pro, Visionary) plus day passes and one-time credit packs. Kaiber does
+  not currently publish a public developer API; this profile tracks the company''s
+  identity and public web properties in the API Evangelist network, surfaced originally
+  as a portfolio company of eqt-ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/kaiber/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Artificial Intelligence
+- Generative AI
+- Video
+- Video Generation
+- Creative Tools
+- Media
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,22 @@ maintainers:
 common:
 - type: Website
   url: https://kaiber.ai/
+- type: Login
+  url: https://kaiber.ai/login
+- type: Pricing
+  url: https://helpcenter.kaiber.ai/en/articles/10001319-understanding-subscriptions-and-pricing
+- type: HelpCenter
+  url: https://helpcenter.kaiber.ai/
+- type: TermsOfService
+  url: https://kaiber.ai/terms
+- type: PrivacyPolicy
+  url: https://kaiber.ai/privacy
+- type: GitHubOrganization
+  url: https://github.com/KaiberAI
+- type: DomainSecurity
+  url: security/kaiber-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
